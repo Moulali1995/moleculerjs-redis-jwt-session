@@ -4,11 +4,6 @@ import ApiGateway = require('moleculer-web');
 import {Authorization} from '@Meta/Authorization'
 //import genuuid from 'uuid/v4'
 // import express from 'express';
-import session from 'express-session'
-const redis = require('redis');
-const redisStore = require('connect-redis')(session);
-var redisClient  = redis.createClient();
-const host = '127.0.0.1'
 //#endregion Global Imports
 
 const ApiService: ServiceSchema = {

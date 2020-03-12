@@ -53,7 +53,7 @@ export class AuthService extends BaseSchema {
 			*/
 			const response={
 				id:1,
-				name:'user1',
+				name:'ananymous',
 				password:'admin',
 				role:'admin'
 			}
